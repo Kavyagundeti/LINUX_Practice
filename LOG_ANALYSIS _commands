@@ -1,0 +1,32 @@
+#Create Log File
+mkdir linux-log-analysis-practice
+cd linux-log-analysis-practice
+mkdir logs
+cd logs
+
+#Create logs
+echo "ERROR database down" >> log.txt
+echo "INFO server started" >> log.txt
+echo "ERROR connection failed" >> log.txt
+echo "INFO user login success" >> log.txt
+echo "WARNING disk usage high" >> log.txt
+
+#Log Analysis Commands:
+#Find errors
+grep "ERROR" log.txt
+
+#Count errors
+grep "ERROR" log.txt | wc -l
+
+#Find warnings
+grep "WARNING" log.txt
+
+#Purpose:
+These commands help DevOps engineers quickly find errors in application logs.
+
+
+#Show first 3 logs
+head -3 log.txt
+
+#Show last 3 logs
+tail -3 log.txt
