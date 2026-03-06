@@ -1,0 +1,28 @@
+Create a DevOps workspace:
+Commands used:
+
+mkdir devops-lab
+cd devops-lab
+mkdir scripts logs configs backups
+touch scripts/deploy.sh
+touch logs/app.log
+touch configs/nginx.conf
+
+Verify Structure:
+tree
+
+Output:
+devops-lab
+├── scripts
+│   └ deploy.sh
+├── logs
+│   └ app.log
+├── configs
+│   └ nginx.conf
+└── backups
+
+What I Learned
+Navigating Linux directories
+Creating files and folders
+Organizing project structures
+Basic file operations used in DevOps environments
