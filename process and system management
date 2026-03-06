@@ -1,0 +1,95 @@
+Practice Lab (Commands to Run in Ubuntu VM)
+Task 1 — View Running Processes
+Run:
+ps aux
+Goal:View all running processes on the system.
+Save output:
+ps aux > process_list.txt
+
+Task 2 — Find Specific Process
+Find bash processes:
+ps aux | grep bash
+Explanation:
+ps aux → shows processes
+| → pipe output
+grep bash → search for bash process
+
+Task 3 — Monitor System Usage
+Run:
+top
+Observe:CPU usage
+Memory usage:running processes
+
+Exit with:q
+
+Task 4 — Install and Run htop
+Install:sudo apt install htop
+Run:htop
+
+Explore:
+process list
+CPU usage
+memory usage
+Exit with:F10
+
+Task 5 — Run Process in Background
+Run:sleep 100 &
+
+Explanation:
+sleep 100 → wait 100 seconds
+& → run process in background
+
+Check jobs:
+jobs
+Example output:
+[1]+ Running sleep 100 &
+
+Task 6 — Bring Job to Foreground
+Run:fg %1
+Stop process:
+CTRL + C
+Task 7 — Kill a Process
+Run process:sleep 500
+
+Open another terminal and find it:
+ps aux | grep sleep
+Example output:ubuntu  2345 sleep 500
+Kill process:
+kill -9 2345
+
+
+#Example commands.md
+# Linux Process Management Commands
+ps aux
+Shows all running processes.
+top
+Displays real-time system usage.
+htop
+Interactive process viewer.
+kill -9 PID
+Force terminate a process.
+jobs
+Shows background jobs.
+bg
+Runs job in background.
+fg
+Brings job to foreground.
+
+
+
+# Linux Process Management Practice
+This project demonstrates Linux process monitoring commands used by DevOps engineers.
+Commands practiced:
+ps aux
+top
+htop
+kill
+jobs
+bg
+fg
+
+#Skills Learned:
+- Monitoring running processes
+- Managing background jobs
+- Killing stuck processes
+- Observing CPU and memory usage
