@@ -12,6 +12,7 @@ Verify Structure:
 tree
 
 Output:
+
 devops-lab
 ├── scripts
 │   └ deploy.sh
@@ -20,6 +21,7 @@ devops-lab
 ├── configs
 │   └ nginx.conf
 └── backups
+
 
 What I Learned
 Navigating Linux directories
