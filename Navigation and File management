@@ -1,1 +1,18 @@
-
+commands :
+pwd-Present working directory
+ls-list files
+    ls -lah ==> List all files (including hidden files) with detailed information and readable sizes.
+               -l long format
+               -a All files includes hidden files
+                -h  Human readable sizes
+cd -change directory
+mk dir <directory_name> ->creates directory
+touch <file_name> ->creates files
+cp -> copy file  or folders EX:cp notes.txt sheet.txt
+mv -> move or rename files or folders
+rm -> delete 
+  rm -f<file name> ==> delete files  
+  rm -rf<folder_name> ==>delete folders
+tree -->displays structure 
+to install tree use:
+sudo apt install tree
