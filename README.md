@@ -28,15 +28,15 @@ MINI_TASK| Practice exercises
 ### Navigation
 * `pwd- shows the current working directory`
 * `ls -list of files and folders in current directory`
-* `cd /home`- changes directory to home`
+* `cd /home - changes directory to home `
 ### File Management
 * `touch file.txt-creating new empty file`
-* `mkdir test_folder`-creats a new directory named test_folder`
-* `rm file.txt`-Deletes the file`
+* `mkdir test_folder-creats a new directory named test_folder`
+* `rm file.txt-Deletes the file`
 ###  Process Management
 * `ps-displays current running directory`
-* `top`-shows real-time system processes and resource usage`
-*  `kill -9 PID` -Forcefully terminates a process using its process ID`
+* `top-shows real-time system processes and resource usage`
+*  `kill -9 PID -Forcefully terminates a process using its process ID`
 ---
 🚀 How to Use
 1. Clone this repository
