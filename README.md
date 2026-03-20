@@ -13,13 +13,14 @@ ____
 - 🧪 Linux Mini Tasks
 
 *** 
-##  Repository Structure
+## 📂 Repository Structure
 
-File| Description
-Navigation and File management| Basic Linux navigation commands
-process and system management| Commands for managing processes
-LOG_ANALYSIS_commands| Commands used for analyzing logs
-MINI_TASK| Practice exercises
+| File                         | Description                              |
+|------------------------------|------------------------------------------|
+| Navigation_and_File_Management | Basic Linux navigation commands         |
+| process_and_system_management | Commands for managing processes         |
+| LOG_ANALYSIS_commands         | Commands used for analyzing logs        |
+| MINI_TASK                     | Practice exercises                      |
 
 ---
 
